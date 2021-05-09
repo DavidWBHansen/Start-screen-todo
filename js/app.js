@@ -81,3 +81,5 @@ setInterval(function getStuff(){
   yearsToLive.innerHTML = calculateLifeExpectancy(age);
   daysToLive.innerHTML = addComma(calculateLifeExpectancy(age)*365.25).toString().substring(0, 12);
 }, 100);
+
+
