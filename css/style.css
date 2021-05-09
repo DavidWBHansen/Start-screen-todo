@@ -53,7 +53,7 @@ section {
 
 /* Header (first flex item) */
 .heading {
-  font-size: 11em;
+  font-size: 6em;
   color: #fff;
 }
 
@@ -75,8 +75,9 @@ section div {
   font-weight: 600;
 }
 #rutine{position: fixed;
-    top: -9vh;
-    right: -15vw;
+    top: -22vh;
+    right: 0;
+    padding: 0 0 0 0;
     border-left: solid white;
     padding-left: 2%;: }
 
@@ -171,7 +172,7 @@ color: white;
 #todos{  margin: 0;
   position: absolute;
   top: 50%;
-  right: 10.5%;
+  right: 200px;
   transform: translate(0%,-50%);}
 
 ul {
